@@ -2,12 +2,12 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
-name = "binaryconv_max"
+name = "binaryconv"
 version = "0.0.1"
 authors = [
-  { name="Max Parry" },
+  { name="Buggem" },
 ]
-description = "Binary converter for python"
+description = "Binary converter for Python"
 readme = "README.md"
 license = { file="LICENSE" }
 requires-python = ">=3.5"
@@ -16,3 +16,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+
+[project.urls]
+"GitHub" = "https://github.com/Buggem/binaryconv"
+"Bugs and Glitches" = "https://github.com/Buggem/binaryconv/issues"
