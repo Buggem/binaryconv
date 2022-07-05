@@ -1,2 +1,2 @@
-# binaryconv
-Binary converter for python
+# binaryconv.py
+the goddamn best binary converter
