@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 name = "binaryconv"
 version = "0.0.1"
 authors = [
-  { name="Buggem" },
+  { name="Buggem and dev01111" },
 ]
 description = "Binary converter for Python"
 readme = "README.md"
@@ -21,3 +21,4 @@ classifiers = [
 [project.urls]
 "GitHub" = "https://github.com/Buggem/binaryconv"
 "Bugs and Glitches" = "https://github.com/Buggem/binaryconv/issues"
+"Other Fork" = "https://github.com/dev01111/binaryconv_dev01111"
