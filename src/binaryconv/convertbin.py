@@ -13,4 +13,4 @@ def unicode_table(sr, er):
         table.append(chr(i))
     return table
 def python_version(encoding=sys.getdefaultencoding()):
-    return (subprocess.run(["ls", "-l", "/dev/null"], capture_output=True).stdout).decode(encoding)
+    return (subprocess.run([sys.executable, "--version"], capture_output=True).stdout).decode(encoding)
