@@ -38,3 +38,6 @@ jobs:
       with:
         user: __token__
         password: ${{ secrets.PYPI_TOKEN }}
+    - name: Provide information
+      run: |
+        python .github/tellMe.sh
