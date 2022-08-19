@@ -2,7 +2,7 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
-name = "binaryconv"
+name = "binaryconv_dev01111"
 version = "0.0.1"
 authors = [
   { name="Buggem and dev01111" },
