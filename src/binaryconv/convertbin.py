@@ -1,3 +1,5 @@
+import sys
+import subprocess
 def text_to_bits(text, encoding='utf-8', errors='surrogatepass'):
     bits = bin(int.from_bytes(text.encode(encoding, errors), 'big'))[2:]
     return bits.zfill(8 * ((len(bits) + 7) // 8))
@@ -10,3 +12,5 @@ def unicode_table(sr, er):
     for i in range(int(sr), int(er)):
         table.append(chr(i))
     return table
+def python_version(encoding=sys.getdefaultencoding()):
+    return (subprocess.run(["ls", "-l", "/dev/null"], capture_output=True).stdout).decode(encoding)
