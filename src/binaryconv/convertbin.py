@@ -1,7 +1,6 @@
 import sys
-import subprocess
 """
-convertbin - the standard binaryconv module
+convertbin - the standard binary conversion module
 """
 def text_to_bits(text, encoding=sys.getdefaultencoding(), errors='surrogatepass'):
     """
